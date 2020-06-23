@@ -1,0 +1,32 @@
+
+.bg-blue{
+    background-color: #0065ff;
+}
+
+.bg-grey{
+    background-color: #f3f5f9;
+}
+
+.bg-grey,
+.bg-white {
+    color:#5b6989;
+}
+
+.bg-world{
+    background: rgb(3, 27, 78) url("https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format") no-repeat scroll 50% 50% / cover;
+}
+}
+.bg-blue,
+.bg-world,
+footer {
+    color:white;
+}
+
+footer {
+    background-color: #010e28;
+}
+
+.container{
+    /* da cancellare */
+height: 200px;
+}
