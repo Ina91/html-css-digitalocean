@@ -18,6 +18,7 @@ color: white;
 }
 
 .bg-world{
+    color: white;
     background: rgb(3, 27, 78) url("https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format") no-repeat scroll 50% 50% / cover;
 }
 }
@@ -39,4 +40,13 @@ footer {
     background-position: center;
     background-size: cover;
 
+}
+
+
+
+
+/* bg-world  section*/
+.do_customers {
+    border-bottom: 1px solid white;
+    margin:5px;
 }
