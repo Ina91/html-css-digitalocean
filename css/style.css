@@ -1,6 +1,11 @@
 
+.container{
+    max-width: 1200px;
+}
 .bg-blue{
-    background-color: #0065ff;
+    /* background-color: #0065ff; */
+background-color: rgb(0, 105, 255);
+color: white;
 }
 
 .bg-grey{
@@ -26,7 +31,12 @@ footer {
     background-color: #010e28;
 }
 
-.container{
-    /* da cancellare */
-height: 200px;
+
+
+/* START BANNER  */
+#banner {
+    background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+    background-position: center;
+    background-size: cover;
+
 }
