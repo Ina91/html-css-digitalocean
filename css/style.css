@@ -1,6 +1,7 @@
 
 .container{
     max-width: 1200px;
+    padding:100px 0;
 }
 .bg-blue{
     /* background-color: #0065ff; */
@@ -30,6 +31,7 @@ footer {
 
 footer {
     background-color: #010e28;
+    color:white;
 }
 
 
@@ -39,7 +41,6 @@ footer {
     background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
     background-position: center;
     background-size: cover;
-
 }
 
 
@@ -49,4 +50,10 @@ footer {
 .do_customers {
     border-bottom: 1px solid white;
     margin:5px;
+
+}
+
+
+#start .pull-right {
+    margin-top: 30px;
 }
