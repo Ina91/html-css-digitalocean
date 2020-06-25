@@ -1,8 +1,12 @@
 
 .container{
     max-width: 1200px;
-    padding:80px 0;
+    padding:100px 0;
     font-family: Helvetica,sans-serif;
+    margin: 0 auto;
+
+        text-align: center;
+
 }
 .bg-blue{
     /* background-color: #0065ff; */
@@ -37,8 +41,11 @@ footer {
 
 /* tipografia comune */
 h1{
-    font-size: 58px;
+    font-size: 31px;
+    margin-bottom: 30px;
+    line-height: 120%;
     font-weight: bolder;
+    max-width: 870px;
 }
 h2{
     font-size: 36px;
@@ -54,10 +61,21 @@ h6 {
     font-size: 14px;
     font-weight: 700;
 }
-p{
-    font-size: 20px;
-    font-weight: lighter;
-    padding: 30px 0;
+
+
+.do_deploy-column p,
+#key-resources p {
+color: #5b6987;
+font-size: 16px;
+line-height: 160%;
+font-weight: 400;
+font-style: normal;
+}
+
+p {
+font-size: 20px;
+line-height: 150%;
+margin: 30px 0;
 }
 .do_top-container{
     padding-bottom: 30px;
@@ -86,6 +104,21 @@ p{
     font-weight: 700;
 }
 
+.navbar-default .navbar-toggle{
+    border:none;
+
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #5b6987;
+
+}
+.navbar-toggle .thick-icon-bar{
+    height:3px;
+}
+.navbar-toggle .thin-icon-bar{
+    height: 2px;
+}
+
 
 
 /* START BANNER  */
@@ -93,23 +126,44 @@ p{
     background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
     background-position: center;
     background-size: cover;
+    margin-top:80px;
 }
 
 
 #banner p{
     font-size: 24px;
+    line-height: 150%;
+    color: white;
     font-weight: lighter;
     font-family: mountserrat, sans-serif;
+    padding-bottom: 0;
+}
+.h-fixed{
+
+    height: 500px;
 }
 
+.left-banner{
+position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
 
 
+}
 
+.right-banner{
+
+position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
 
 
 /* jumbotron */
 .container .jumbotron{
     padding:0;
+    width: 350px;
 }
 .jumbotron{
     padding:0;
@@ -156,7 +210,7 @@ p{
 }
 
 .do_jumbo-bottom{
-    border-top: 2px solid #f5f7fa;
+    border-top: 1px solid #f5f7fa;
     background-color: white;
     padding-top :30px;
     padding-bottom:30px;
@@ -196,6 +250,8 @@ p{
     list-style-type: none;
     padding: 20px;
     border-left: 1px solid #e5e8ed;
+    margin-left: 20px;
+
 }
 
 #deploy a{
@@ -204,6 +260,9 @@ p{
     font-size: 16px;
 }
 
+#deploy .do_deploy-column{
+    padding:20px 15px;
+}
 
 
 /* SEZIONE API bg-grey */
@@ -292,8 +351,22 @@ footer a:hover{
 .do_footer-bottom {
     border-top: 1px solid hsla(0,0%,100%,0.2);
     margin-top: 50px;
+    padding-top: 20px;
 }
 
+
+
+
+@media(min-width:768px){
+
+    h1{
+        font-size: 58px;
+    }
+    footer .container{
+        text-align: left;
+    }
+
+}
 
 
 @media (max-width: 991px) {
@@ -333,18 +406,30 @@ footer a:hover{
         display:block !important;
     }
 
+    .row{
+        padding:0 30px;
+    }
+/* banner */
+    .container{
+        text-align: center;
+    }
+    #banner .left-banner{
+        margin:0 auto;
+         /* text-align: center; */
+    }
+     h1 {
+        max-width: 670px;
+        margin:0 auto;
+    }
+
+ }
+
+
 /* media query sezione start */
      .do_start-button,
      .do_start-title {
          text-align: center;
      }
-}
-
-@media screen and (min-whidth:992px) {
-
-     .do_start-title
-  {
-
 
 
 }
